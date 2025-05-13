@@ -1,0 +1,139 @@
+.head_g {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.head_g button {
+    border-radius: 20px;
+    width: 219px;
+    height: 63px;
+    border: 3px solid #EF400F;
+    background-color: white;
+    font-size: 24px;
+    color: #EF400F;
+
+}
+
+header {
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    
+}
+
+.head_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.head_text div {
+    display: flex;
+    align-items: center;
+}
+
+
+.head_text a {
+    text-decoration: none;
+    color: #BCAAAA;
+    
+    align-items: center;
+}
+
+
+
+.head_text a:hover {
+    color: #EF400F;
+
+}
+
+main {
+    margin-top: 50px;
+}
+
+
+.past {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.past div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.past input {
+    width: 386px;
+    height: 63px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.past button {
+    width: 116px;
+    height: 63px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0D0D5B;
+    color: #fff;
+    margin-left: 20px;  
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.card {
+    width: 290px;
+    height: 290px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.card h1 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+    box-shadow: 0px 4px 17.9px 0px #00000040;
+    margin-top: 100px;
+    
+}
+
+.f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
